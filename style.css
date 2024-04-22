@@ -1,0 +1,177 @@
+.b_head
+{
+    display: flex;
+    background-color: #edb196;
+}
+
+.b_aside
+{
+    background-color: #c6c7bd;
+    width: 300px;
+    
+    padding: 20px;
+    text-align: center;
+}
+
+.b_contenu
+{
+    display:inline-block;
+    flex: 2;
+    text-align: center;
+    padding: 15px;
+}
+
+.b_footer
+{
+    display: inline-flex;
+    background-color: #342823;
+    color: white;
+    border-radius: 7px;
+}
+
+.b_article
+{
+    background-color: #f4e1d3;
+    text-align: justify;
+    padding: 20px;
+    width: 250px;
+    display: inline-block;
+    font-family: Leelawadee;
+
+
+}
+
+@font-face {
+    font-family: "kaoly";
+    src: url("Kaoly\ Demo-Regular.ttf");
+}
+
+@font-face {
+    font-family: "lemon";
+    src: url("lemon_milk/LEMONMILK-Bold.otf");
+}
+
+@font-face {
+    font-family: "auckland";
+    src: url("Auckland Hills.ttf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("Montserrat-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: 'Leelawadee';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Leelawadee'), url('leelawad.woff') format('woff');
+    }
+
+h1{
+    font-family: kaoly;
+    font-size: 80px;
+    color: #342823;
+}
+
+h2{
+    font-family: montserrat;
+    color: #342823;
+    font-size: 28px;
+    
+}
+
+h3{
+    font-family: lemon;
+    color: #342823;
+}
+
+h4{
+    font-family: auckland;
+    color: #342823;
+    font-size: 30px;
+}
+
+h4:hover{
+    text-emphasis-color: #d9b3ab;
+}
+
+/* HTML */
+/* Supposez que votre texte est dans une balise <span> avec la classe "texte-hover" */
+.texte-hover {
+    position: relative;
+  }
+  
+  /* CSS */
+  .texte-hover::after {
+    content: '';
+    position: absolute;
+    bottom: -5px; /* Réglez la position de la barre en dessous du texte */
+    left: 0;
+    width: 100%; /* Pour que la barre s'étende sur toute la largeur du texte */
+    height: 2px; /* Hauteur de la barre */
+    background-color: transparent; /* Couleur de la barre (initialisée à transparent) */
+    transition: background-color 0.3s ease; /* Transition pour un effet de transition en douceur */
+  }
+  
+  .texte-hover:hover::after{
+    background-color: #f7856e; /* Couleur de la barre lorsqu'on passe la souris dessus */
+  }
+  a:hover {
+    color: #f7856e; /* La couleur du texte deviendra rouge lorsque l'utilisateur survolera le paragraphe */
+}
+
+a{
+    text-decoration: none;
+    color: #342823;
+}
+
+.container
+{
+    display: flex;
+}
+
+body{
+    background-size:contain;
+}
+
+.b_page2
+{
+    background: url('bible.jpg');
+    background-size: cover;
+    font-family: 'Leelawadee';
+    color: white;
+}
+
+.b_section
+{
+    background-color: #f4e1d3;
+    color: #342823;
+    font-family: 'Leelawadee';
+    text-align: justify;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 15px;
+    border-top-left-radius: 0px;
+}
+
+.b_title
+{
+    background-color: #f4e1d3;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    display:flexbox;
+    width: 200px;
+    height: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.img_article
+{
+    float: left;
+    width: 150px;
+    
+    
+}
+
