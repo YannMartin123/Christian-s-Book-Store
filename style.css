@@ -133,6 +133,7 @@ a{
 
 body{
     background-size:contain;
+    background: url('background.png);
 }
 
 .b_page2
@@ -141,6 +142,10 @@ body{
     background-size: cover;
     font-family: 'Leelawadee';
     color: white;
+}
+
+.droite{
+    align: right;
 }
 
 .b_section
