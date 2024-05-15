@@ -133,12 +133,12 @@ a{
 
 body{
     background-size:contain;
-    background: url('background.png);
+    background-image: url('background.png');
 }
 
 .b_page2
 {
-    background: url('bible.jpg');
+    background-image: url('bible.jpg');
     background-size: cover;
     font-family: 'Leelawadee';
     color: white;
